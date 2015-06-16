@@ -1,3 +1,4 @@
+# Untracked files
 *~
 .htaccess
 admin/
@@ -11,3 +12,5 @@ license.txt
 plugins/
 robots.txt
 themes/
+
+# Exceptions (i.e. tracked files)
