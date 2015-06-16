@@ -2,7 +2,11 @@
 *~
 .htaccess
 admin/
-application/
+application/*
+!application/models
+application/models/*
+!application/models/Mixin
+application/models/Mixin/*
 bootstrap.php
 db.ini
 files/
@@ -14,3 +18,5 @@ robots.txt
 themes/
 
 # Exceptions (i.e. tracked files)
+!application/models/Mixin/ElementText.php
+
